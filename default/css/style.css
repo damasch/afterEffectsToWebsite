@@ -1,0 +1,66 @@
+
+* { 
+	padding: 0px;
+	margin: 0px;	
+}
+
+
+body {
+	background-color: #000;
+	font-family: Arial;
+	color: #fff;
+}
+#page {
+	position: relative;
+	margin: 0px auto;
+	width: 1282px;
+	background-color: #000;
+	padding: 10px;
+}
+
+#view {
+	margin: 0px auto;
+	position: fixed;
+	width: 1280px;
+	height: 720px;
+	border: 1px solid #aaa;
+	background-color: black;
+	overflow: hidden;
+}
+
+#info {
+	position: absolute;
+	width: 400px;
+	text-align: center;
+	left: 440px; 
+	top: 350px;	
+}
+
+#preload {
+	display: none;
+}
+
+#eventer {
+	display: none;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: #aaa;
+}
+
+.controlLayerPosition ,
+.controlLayerAnchor {
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	overflow: visible;
+}
+
+.controlLayerPosition *,
+.controlLayerAnchor *{
+	position: absolute;
+}
+
+.soldsource {
+	position: absolute;
+}
